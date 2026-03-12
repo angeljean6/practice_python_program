@@ -3,3 +3,5 @@ num2 = int(input("Enter second number: "))
 
 if num1 == num2:
     print("Equal")
+else:
+    print("Not equal")
