@@ -7,3 +7,10 @@ while True:
     except ValueError:
         print("Invalid input. Program stopped.")
         break
+if numbers:
+    total = 0
+
+    for num in numbers:
+        total += num
+
+    average = total / len(numbers)
