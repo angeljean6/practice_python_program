@@ -16,3 +16,7 @@ if numbers:
         if count > highest_count:
             highest_count = count
             most_duplicate = num
+    print("Number with most duplicates:", most_duplicate)
+    print("Number of occurrences:", highest_count)
+else:
+    print("No valid numbers were entered.")
