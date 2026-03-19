@@ -14,3 +14,7 @@ if numbers:
         total += num
 
     average = total / len(numbers)
+
+    print("Average is:", average)
+else:
+    print("No valid numbers were entered.")
