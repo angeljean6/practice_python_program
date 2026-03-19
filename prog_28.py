@@ -13,3 +13,7 @@ if numbers:
     for num in numbers:
         if num > highest:
             highest = num
+
+    print("Highest number is:", highest)
+else:
+    print("No valid numbers were entered.")
