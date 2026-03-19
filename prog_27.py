@@ -10,3 +10,9 @@ while True:
 if numbers:
     most_duplicate = numbers[0]
     highest_count = numbers.count(numbers[0])
+
+    for num in numbers:
+        count = numbers.count(num)
+        if count > highest_count:
+            highest_count = count
+            most_duplicate = num
