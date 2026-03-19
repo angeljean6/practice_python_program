@@ -7,5 +7,8 @@ while True:
     except ValueError:
         print("Invalid input. Program stopped.")
         break
-        
+
 numbers.sort(reverse=True)
+
+print("Numbers from highest to lowest:")
+print(numbers)
