@@ -9,3 +9,6 @@ while True:
         break
 
 numbers.sort()
+
+print("Numbers from lowest to highest:")
+print(numbers)
