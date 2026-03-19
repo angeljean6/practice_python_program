@@ -10,3 +10,5 @@ while True:
 if numbers:
     lowest = min(numbers)
     print("Lowest number is:", lowest)
+else:
+    print("No valid numbers were entered.")
