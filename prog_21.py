@@ -5,3 +5,6 @@ for i in range(10):
     numbers.append(num)
 
 print("Numbers without duplicates are:")
+for num in numbers:
+    if numbers.count(num) == 1:
+        print(num)
