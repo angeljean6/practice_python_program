@@ -6,3 +6,5 @@ for i in range(10):
 
 print("\nAll numbers:")
 print(numbers)
+
+unique_numbers = []
