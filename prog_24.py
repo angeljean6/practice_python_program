@@ -7,3 +7,6 @@ while True:
     except ValueError:
         print("Invalid input. Program stopped.")
         break
+if numbers:
+    lowest = min(numbers)
+    print("Lowest number is:", lowest)
