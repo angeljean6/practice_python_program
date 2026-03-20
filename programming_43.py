@@ -10,3 +10,5 @@ for ch in text:
         result += chr(ascii_val + 32)
     else:
         result += ch
+        
+print("Output:", result)
