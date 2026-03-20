@@ -5,3 +5,4 @@ while i < len(text) and text[i] == " ":
     i += 1
 
 result = text[i:]
+print("Output:", result)
