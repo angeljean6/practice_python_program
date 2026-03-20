@@ -6,4 +6,5 @@ for ch in fullname:
     elif ch.isupper():
         reverse_case += ch.lower()
     else:
-        reverse_case += ch 
+        reverse_case += ch
+print("Output:", reverse_case)
