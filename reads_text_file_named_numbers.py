@@ -12,3 +12,7 @@ class number_file_divider:
 
             for nebula_line in cosmic_input_stream:
                 stellar_number = int(nebula_line.strip())
+                if self._is_even(stellar_number):
+                    azure_evem_stream.write(f"{stellar_number}\n")
+                else:
+                    crimson_odd_stream.write(f"{stellar_number}\n")
