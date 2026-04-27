@@ -19,3 +19,12 @@ class number_file_divider:
 
     def _is_even(self, number_value):
         return number_value % 2 == 0
+
+if __name__ == "__main__":
+    celestial_processor = number_file_divider(
+        "numbers.txt",
+        "even.txt",
+        "odd.txt"
+    )
+
+    celestial_processor.process_numbers()
