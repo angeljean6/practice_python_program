@@ -16,3 +16,6 @@ class number_file_divider:
                     azure_evem_stream.write(f"{stellar_number}\n")
                 else:
                     crimson_odd_stream.write(f"{stellar_number}\n")
+
+    def _is_even(self, number_value):
+        return number_value % 2 == 0
